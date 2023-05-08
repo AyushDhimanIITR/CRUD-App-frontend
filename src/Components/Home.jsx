@@ -13,7 +13,7 @@ const Home = () => {
   const getData = async (e) => {
     // e.preventDefault();
 
-    const res = await fetch("https://crud-bllqeuprf-ayushdhimaniitr.vercel.app//getAllUsers", {
+    const res = await fetch("127.0.0.1/getAllUsers", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
